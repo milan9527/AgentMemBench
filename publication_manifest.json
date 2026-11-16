@@ -1,0 +1,171 @@
+{
+  "source_run": "longmemeval_20261116",
+  "files": [
+    {
+      "source": ".gitignore",
+      "published": ".gitignore",
+      "source_sha256": "b129b4c9df0e70d58d14080f9f7021fe8ee2805c71393593eca67b93595bc319"
+    },
+    {
+      "source": "README.md",
+      "published": "README.md",
+      "source_sha256": "f6961e1da3d074eff358c91a88a04cf52260a010f3fb02557924e9d50c66982a"
+    },
+    {
+      "source": "BENCHMARK_PLAN.md",
+      "published": "BENCHMARK_PLAN.md",
+      "source_sha256": "467f3220c9603fbd3a4085792a0453a49bed729befa6a3529bf4e5d3e99ea7a5"
+    },
+    {
+      "source": "config.json",
+      "published": "config.json",
+      "source_sha256": "d3e0c6336c2df43362cf17ef6fa7fc9d8ac9222eed44fd68112d13b9c7b0535e"
+    },
+    {
+      "source": "requirements.lock.txt",
+      "published": "requirements.lock.txt",
+      "source_sha256": "fca0c1107928bc0821d9b507be06277338a92acc13648a48352f5860a9b01f7f"
+    },
+    {
+      "source": "data/source_manifest.json",
+      "published": "data/source_manifest.json",
+      "source_sha256": "a16731dc9f5d713623fc260f3596ef02366fe8d38357aa6c149306ae7c891b03"
+    },
+    {
+      "source": "analyze.py",
+      "published": "analyze.py",
+      "source_sha256": "f9ea1bfc39f6c83e40aff5dc32b0434e254f6ac098559c168705374884749e95"
+    },
+    {
+      "source": "audit_judges.py",
+      "published": "audit_judges.py",
+      "source_sha256": "b2afe7f860bc1f7fd4c0f34d307fac262c9333487016e652a0fcdb563c96d4e8"
+    },
+    {
+      "source": "benchmark.py",
+      "published": "benchmark.py",
+      "source_sha256": "1308279a8701b4e5d0f45ba1da03c26056fef6465ec8d488496dba5c75904a35"
+    },
+    {
+      "source": "collect_metrics.py",
+      "published": "collect_metrics.py",
+      "source_sha256": "1b06f343aaa375a64b825363092b308f5033e36a70f65609c1c545720817628c"
+    },
+    {
+      "source": "diagnose_retrieval.py",
+      "published": "diagnose_retrieval.py",
+      "source_sha256": "76ad1fc1199b8e02b58b9414b099b5df6ae89bb246e7007e813ca25a8854a011"
+    },
+    {
+      "source": "finish_run.py",
+      "published": "finish_run.py",
+      "source_sha256": "3b95e92c67da9e05739929086f5b7a2ae76bcf5426226bea43168280d06e136a"
+    },
+    {
+      "source": "latency.py",
+      "published": "latency.py",
+      "source_sha256": "6932d4c518589cb62888e565e136827b3618a8784fff15aaec67b64d5643baf6"
+    },
+    {
+      "source": "progress.py",
+      "published": "progress.py",
+      "source_sha256": "1b85995b1cc6dd60146fc67714df64e7add250373df90078883eedfcf8d3c5d1"
+    },
+    {
+      "source": "resources.py",
+      "published": "resources.py",
+      "source_sha256": "8c58d9978be17968628cc6dcea99115dff23a519670a75bf140879e8b9318d11"
+    },
+    {
+      "source": "retrieval_diagnostics_gold.py",
+      "published": "retrieval_diagnostics_gold.py",
+      "source_sha256": "150289d9db33b0364677bdabec39537d424d0d081f6b65f738e8040c7794e5ef"
+    },
+    {
+      "source": "tests/test_protocol.py",
+      "published": "tests/test_protocol.py",
+      "source_sha256": "b38cc1573b284e42d6a029c6e5c9eb4ee2a79f63d45455157786833e52b4f6a1"
+    },
+    {
+      "source": "tests/test_retrieval_diagnostics.py",
+      "published": "tests/test_retrieval_diagnostics.py",
+      "source_sha256": "b405e89567dd0825a50646d7b3164d22942ac21ea86c6d480fd6d5d1a823cc1e"
+    },
+    {
+      "source": "vendor/LICENSE.LongMemEval",
+      "published": "vendor/LICENSE.LongMemEval",
+      "source_sha256": "d3c4b9aa54759df6ded337978a6f3b55b75615e5e4525c3b82d7e2627d4b9732"
+    },
+    {
+      "source": "vendor/longmemeval_evaluate_qa.py",
+      "published": "vendor/longmemeval_evaluate_qa.py",
+      "source_sha256": "ecce9c4c79dc89d99534ac17b383a5cbb5b9f0c69ee98adaf0684742e3d95251"
+    },
+    {
+      "source": "vendor/sources.json",
+      "published": "vendor/sources.json",
+      "source_sha256": "864573518f14822f0d220c37991b06b9fdcb833c5c6bd811bc1e4a2dc6f9e258"
+    },
+    {
+      "source": "runs/longmemeval_20261116/REPORT.md",
+      "published": "reports/longmemeval_20261116/REPORT.md",
+      "source_sha256": "c48ee7a6b76076181235e9840deca705b90e1ff609c1667440f5d3f6a142b15c"
+    },
+    {
+      "source": "runs/longmemeval_20261116/summary.json",
+      "published": "reports/longmemeval_20261116/summary.json",
+      "source_sha256": "ad6c2edff61cc54633ed39a82426f5e6f8b86ec3a2e5b4970bf43d79d1116b4c"
+    },
+    {
+      "source": "runs/longmemeval_20261116/latency_summary.json",
+      "published": "reports/longmemeval_20261116/latency_summary.json",
+      "source_sha256": "9939391a3d5e28eafbf702b98d150387ff7cf1293764382b9b15533e54f447ac"
+    },
+    {
+      "source": "runs/longmemeval_20261116/judge_repeat_summary.json",
+      "published": "reports/longmemeval_20261116/judge_repeat_summary.json",
+      "source_sha256": "ee9f25ef466b336fa448195bc7eb19e60f5d73e575ae9ae9632a42ce5cb5c1ae"
+    },
+    {
+      "source": "runs/longmemeval_20261116/timestamp_semantics_audit.json",
+      "published": "reports/longmemeval_20261116/timestamp_semantics_audit.json",
+      "source_sha256": "f4ee1f911fe052081e2f1c80003c3172f9b5896034d9099641d0901ecad58e19"
+    },
+    {
+      "source": "runs/longmemeval_20261116/config.json",
+      "published": "reports/longmemeval_20261116/config.json",
+      "source_sha256": "27b661cfaa0908e0f64737b29a90e3feecd5f0880c3f3b97be95ecce0580325a"
+    },
+    {
+      "source": "runs/longmemeval_20261116/retrieval_diagnostics_v1/REPORT.md",
+      "published": "reports/longmemeval_20261116/retrieval_diagnostics_v1/REPORT.md",
+      "source_sha256": "c115ec0b18e607dd80b76d16d7e39051784848d8e992fbc9df8e78ec397e8002"
+    },
+    {
+      "source": "runs/longmemeval_20261116/retrieval_diagnostics_v1/metrics.csv",
+      "published": "reports/longmemeval_20261116/retrieval_diagnostics_v1/metrics.csv",
+      "source_sha256": "01babd9922f9b7139aed0aa9ef893124d1ae376d710e9e484ed86d70f06f692d"
+    },
+    {
+      "source": "runs/longmemeval_20261116/retrieval_diagnostics_v1/summary.json",
+      "published": "reports/longmemeval_20261116/retrieval_diagnostics_v1/summary.json",
+      "source_sha256": "4c1915361b4383ebc9561fce6b2bd216028ffaebd1f4e878ddac81ae62a41922"
+    },
+    {
+      "source": "runs/longmemeval_20261116/retrieval_diagnostics_v1/integrity.json",
+      "published": "reports/longmemeval_20261116/retrieval_diagnostics_v1/integrity.json",
+      "source_sha256": "d993d58aab93793efb4e5dbf1ef489fdf711a98bdd07c1a086fd6edf9d88b53b"
+    },
+    {
+      "source": "runs/longmemeval_20261116/retrieval_diagnostics_v1/review_protocol.json",
+      "published": "reports/longmemeval_20261116/retrieval_diagnostics_v1/review_protocol.json",
+      "source_sha256": "e5a8583dd74d099fe392293cc1cf13358317c4d23cced13fe232d85d5c2a0e01"
+    }
+  ],
+  "publication_adjustments": [
+    "README navigation and diagnostic usage",
+    "Additional credential/database ignore patterns",
+    "Result archive index"
+  ],
+  "raw_runtime_artifacts_included": false
+}

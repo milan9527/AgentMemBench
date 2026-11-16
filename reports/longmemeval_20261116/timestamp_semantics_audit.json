@@ -1,0 +1,38 @@
+{
+  "observed_at": 1794807084.3728697,
+  "by_arm": {
+    "mem0": {
+      "candidates": 691,
+      "timestamp_years": {
+        "2023": 691
+      }
+    },
+    "semantic": {
+      "candidates": 1400,
+      "timestamp_years": {
+        "2023": 1400
+      }
+    },
+    "preference": {
+      "candidates": 1144,
+      "timestamp_years": {
+        "2023": 1144
+      }
+    },
+    "summary": {
+      "candidates": 1352,
+      "timestamp_years": {
+        "2023": 706,
+        "2026": 646
+      }
+    },
+    "episodic": {
+      "candidates": 1279,
+      "timestamp_years": {
+        "2023": 1275,
+        "2026": 4
+      }
+    }
+  },
+  "note": "The evaluated prompt labels these fields Memory source timestamp. Values are passed through from each backend. AgentCore Summary returns processing-time values in 2026, while event dates and most other strategy timestamps are historical. They are not normalized provenance dates; original input dates are also embedded in all history messages. No primary outputs have been changed."
+}

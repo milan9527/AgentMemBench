@@ -1,0 +1,13 @@
+{
+  "unit_tests_passed": 9,
+  "question_arm_rows": 96,
+  "labelled_records": 5916,
+  "positive_records": 108,
+  "all_support_quotes_match": true,
+  "all_metric_bounds_valid": true,
+  "recall_monotone_in_k": true,
+  "visible_facts_subset_of_candidate_facts": true,
+  "all_original_history_facts_recoverable": true,
+  "primary_artifacts_checked": 193,
+  "primary_artifacts_changed": []
+}

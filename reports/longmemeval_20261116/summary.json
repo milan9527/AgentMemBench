@@ -1,0 +1,335 @@
+{
+  "none": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.14285714285714285,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 0
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 0
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 0
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 0
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 0
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 0
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.0,
+    "mean_context_tokens": 0.0
+  },
+  "rag": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.5,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 1
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 0
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 0
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 0
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.26900329759810104,
+    "mean_context_tokens": 4096.0
+  },
+  "mem0": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.8571428571428571,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 1
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 1
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 2
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 2
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 1.6292212466054479,
+    "mean_context_tokens": 2671.3571428571427
+  },
+  "semantic": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.7142857142857143,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 1
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 0
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 1
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 2
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 2
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.37329719294648384,
+    "mean_context_tokens": 4096.0
+  },
+  "preference": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.35714285714285715,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 0
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 0
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 1
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 0
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 0
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.3169581500485947,
+    "mean_context_tokens": 4096.0
+  },
+  "summary": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.6428571428571429,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 1
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 0
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 0
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 2
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.33148172090004663,
+    "mean_context_tokens": 4096.0
+  },
+  "episodic": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.5714285714285714,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 1
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 0
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 0
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 1
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.3864617980478215,
+    "mean_context_tokens": 4096.0
+  },
+  "spu": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.9285714285714286,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 1
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 2
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 2
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 2
+      }
+    },
+    "retrieval_p95_seconds": 0.9781598897992808,
+    "mean_context_tokens": 4096.0
+  },
+  "spue": {
+    "expected": 14,
+    "completed": 14,
+    "accuracy": 0.7142857142857143,
+    "by_category": {
+      "single-session-user": {
+        "n": 2,
+        "correct": 1
+      },
+      "single-session-assistant": {
+        "n": 2,
+        "correct": 2
+      },
+      "single-session-preference": {
+        "n": 2,
+        "correct": 2
+      },
+      "multi-session": {
+        "n": 2,
+        "correct": 0
+      },
+      "temporal-reasoning": {
+        "n": 2,
+        "correct": 2
+      },
+      "knowledge-update": {
+        "n": 2,
+        "correct": 2
+      },
+      "abstention": {
+        "n": 2,
+        "correct": 1
+      }
+    },
+    "retrieval_p95_seconds": 1.3170893408932898,
+    "mean_context_tokens": 4096.0
+  }
+}

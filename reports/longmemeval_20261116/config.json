@@ -1,0 +1,21 @@
+{
+  "region": "us-east-1",
+  "seed": 20261116,
+  "samples_per_category": 2,
+  "answer_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "judge_model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "mem0_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "embedding_model": "amazon.titan-embed-text-v2:0",
+  "embedding_dimensions": 1024,
+  "chunk_tokens": 3000,
+  "chunk_messages": 20,
+  "memory_tokens": 4096,
+  "top_k": 100,
+  "workers": 4,
+  "agentcore_wait_seconds": 300,
+  "agentcore_ingest_tokens_per_minute": 100000,
+  "qdrant_url": "http://127.0.0.1:6335",
+  "mem0_threshold": 0.1,
+  "mem0_rerank": false,
+  "agentcore_episodic_wait_seconds": 1200
+}

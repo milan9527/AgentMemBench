@@ -1,0 +1,21 @@
+{
+  "model": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "selection": "Every initial positive/uncertain label plus all records matching declared question-specific entity/value patterns.",
+  "patterns": {
+    "4fd1909e": "xfinity",
+    "d596882b": "chloe",
+    "505af2f5": "creamer|vanilla|sugar intake|sav(?:e|ing) money",
+    "1a8a66a6": "new yorker|architectural digest|forbes",
+    "gpt4_93159ced": "novatech|9 years|nine years|professional experience",
+    "cf22b7bf": "(?:10|ten|5|five)\\s*(?:pounds|lbs)|weight loss",
+    "8550ddae": "lavender|gin fizz",
+    "778164c6": "snapper|mango salsa",
+    "0a34ad58": "suica|tripit",
+    "37f165cf": "440|416|nightingale",
+    "gpt4_7a0daae1": "racket|racquet",
+    "e61a7584": "luna|cat.{0,40}(?:months|adopt)|(?:9|nine)\\s*months"
+  },
+  "record_count": 236,
+  "method": "One record per model request; factual rubric only, no original source quotes or first-pass labels. This is a second automatic pass, not independent human adjudication.",
+  "limitation": "Unselected negative labels are not exhaustively rejudged; pattern-based review may still miss paraphrases."
+}

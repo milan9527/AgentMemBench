@@ -1,0 +1,54 @@
+{
+  "n": 126,
+  "agreements": 126,
+  "agreement_rate": 1.0,
+  "changed": [],
+  "by_arm": {
+    "none": {
+      "n": 14,
+      "original_correct": 2,
+      "repeat_correct": 2
+    },
+    "rag": {
+      "n": 14,
+      "original_correct": 7,
+      "repeat_correct": 7
+    },
+    "mem0": {
+      "n": 14,
+      "original_correct": 12,
+      "repeat_correct": 12
+    },
+    "semantic": {
+      "n": 14,
+      "original_correct": 10,
+      "repeat_correct": 10
+    },
+    "preference": {
+      "n": 14,
+      "original_correct": 5,
+      "repeat_correct": 5
+    },
+    "summary": {
+      "n": 14,
+      "original_correct": 9,
+      "repeat_correct": 9
+    },
+    "episodic": {
+      "n": 14,
+      "original_correct": 8,
+      "repeat_correct": 8
+    },
+    "spu": {
+      "n": 14,
+      "original_correct": 13,
+      "repeat_correct": 13
+    },
+    "spue": {
+      "n": 14,
+      "original_correct": 10,
+      "repeat_correct": 10
+    }
+  },
+  "protocol": "Same frozen answers, official prompt, Sonnet 4.5 and temperature=0. All answers rejudged because spot checks found questionable labels. Diagnostic only; primary scores unchanged. Agreement is not judge accuracy."
+}

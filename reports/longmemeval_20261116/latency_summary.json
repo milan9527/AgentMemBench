@@ -1,0 +1,38 @@
+{
+  "rag": {
+    "n": 42,
+    "p50_seconds": 0.12359093749546446,
+    "p95_seconds": 0.14816794784928786,
+    "warmups_excluded": true
+  },
+  "mem0": {
+    "n": 42,
+    "p50_seconds": 0.26250706099381205,
+    "p95_seconds": 0.49537484695101713,
+    "warmups_excluded": true
+  },
+  "semantic": {
+    "n": 42,
+    "p50_seconds": 0.23579306300234748,
+    "p95_seconds": 0.31185452185309237,
+    "warmups_excluded": true
+  },
+  "preference": {
+    "n": 42,
+    "p50_seconds": 0.2310877259951667,
+    "p95_seconds": 0.3041082882402406,
+    "warmups_excluded": true
+  },
+  "summary": {
+    "n": 42,
+    "p50_seconds": 0.24021336899750168,
+    "p95_seconds": 0.30110286194758373,
+    "warmups_excluded": true
+  },
+  "episodic": {
+    "n": 42,
+    "p50_seconds": 0.2485961025013239,
+    "p95_seconds": 0.26100754904473433,
+    "warmups_excluded": true
+  }
+}
