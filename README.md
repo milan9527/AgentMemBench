@@ -7,6 +7,8 @@
 [主报告](reports/longmemeval_20261116/REPORT.md)和
 [检索诊断报告](reports/longmemeval_20261116/retrieval_diagnostics_v1/REPORT.md)。
 
+另提供[独立 HTML 报告](reports/agent-memory-benchmark.html)，包含测试过程、结果图表、场景表现、检索诊断和选型结论。下载后用浏览器打开，可离线阅读、切换12题/10题诊断，并打印或保存为PDF。
+
 本轮固定 `mem0ai==2.2.1`、Qdrant 1.20.1、Bedrock Haiku 4.5 回答/抽取、Sonnet 4.5 评分、Titan Text Embeddings V2。AWS 区域为 `us-east-1`，使用当前 AWS credential chain，不在配置中保存密钥。
 
 ## 测试结果
